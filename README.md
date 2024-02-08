@@ -1,7 +1,6 @@
 # Ivanti-ICT-Snapshot-decryption
 
-Is a simple Script to decryption the Ivanti ICT-Snapshot
-The mosed base on https://github.com/rxwx/pulse-meter/blob/main/pulse-meter.py
+Is a simple Script to decryption the Ivanti ICT-Snapshot based on https://github.com/rxwx/pulse-meter/blob/main/pulse-meter.py
 
 In this script, only the decryption function has been retained. This makes it simple and less error-prone
 
