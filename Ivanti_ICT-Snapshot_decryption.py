@@ -79,7 +79,7 @@ if __name__ == '__main__':
         logger.info(f'Parsing snapshot file: {args.input}')
         key, iv, ciphertext = parse_encrypted_config(args.input)
         logger.debug('Decrypted Snapshot')
-        with open('ITC-Snapshot.tar','wb') as dec_file:
+        with open('ICT-Snapshot.tar','wb') as dec_file:
             dec_file.write(decrypt(ciphertext, key, iv))
 
 
